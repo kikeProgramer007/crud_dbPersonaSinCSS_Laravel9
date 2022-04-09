@@ -1,0 +1,54 @@
+table{
+    table-layout: fixed;
+}
+.tabla th {
+    border: 1px solid black;
+    word-wrap: break-word;
+}
+.tabla td {
+    border: 1px solid black;
+    word-wrap: break-word;
+    text-align: center;
+    padding:  3px;;
+}
+
+.boton_personalizado{
+    text-decoration: none;
+    padding: 2px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+    background-color:  #ff0000;
+    border-radius: 3px;
+    border: 1px solid #000000;
+  }
+  .boton_edit{
+    text-decoration: none;
+    padding: 2px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+    background-color:  #0084ff;
+    border-radius: 3px;
+    border: 1px solid #000000;
+  }
+  .boton_edit:hover{
+    color: #ffffff;
+    background-color: #003cff;
+  }
+  .boton_personalizado:hover{
+    color: #ffffff;
+    background-color:  #ca1a03;
+  }
+
+  .botonqw {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 2px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    -ms-text-size-adjust: auto;
+    border-radius: 50px; /*bordes redondos*/
+    font-size: 14px;
+    }
